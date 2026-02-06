@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#eaf6ff" />
+  <circle cx="120" cy="140" r="40" fill="#1e90ff" opacity="0.9"/>
+  <path d="M0 480 C160 360 320 520 800 420 L800 600 L0 600 Z" fill="#0b63a6" opacity="0.18" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#0b2540" font-size="28">Coastal Lawn</text>
+</svg>

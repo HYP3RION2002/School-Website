@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="skyA" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#bfefff" />
+      <stop offset="70%" stop-color="#eaf6ff" />
+    </linearGradient>
+    <linearGradient id="seaA" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2aa0ff" />
+      <stop offset="100%" stop-color="#0b63a6" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#skyA)" />
+  <g transform="translate(0,480)" fill="url(#seaA)">
+    <path id="wave1" d="M0 80 C220 10 420 100 800 60 C1180 20 1380 110 1600 60 L1600 200 L0 200 Z" opacity="0.95">
+      <animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" values="0 0; -80 0; 0 0" />
+    </path>
+    <path id="wave2" d="M0 110 C240 40 440 130 800 100 C1160 70 1400 150 1600 120 L1600 240 L0 240 Z" opacity="0.6">
+      <animateTransform attributeName="transform" type="translate" dur="10s" repeatCount="indefinite" values="0 0; -120 0; 0 0" />
+    </path>
+    <path id="wave3" d="M0 140 C200 70 420 170 800 140 C1180 110 1380 200 1600 170 L1600 260 L0 260 Z" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate" dur="12s" repeatCount="indefinite" values="0 0; -160 0; 0 0" />
+    </path>
+  </g>
+  <g>
+    <circle cx="1360" cy="120" r="44" fill="#ffd36b" opacity="0.98" />
+  </g>
+</svg>
