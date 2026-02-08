@@ -1,7 +1,7 @@
 :root{
   --blue-dark:#0b63a6;
-  --blue:#1e90ff;
-  --soft-blue:#eaf6ff;
+  --blue:#9accffbe;
+  --soft-blue:#9597ff;
   --white:#ffffff;
   --muted:#6b7280;
 }
@@ -17,7 +17,7 @@ body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:#0b2540;backgrou
 .nav-toggle{display:none;background:transparent;border:0;font-size:1.4rem}
 
 .hero{
-  background-image: linear-gradient(rgba(255,255,255,0.36), rgba(255,255,255,0.36)), url('../images/ocean-placeholder.svg');
+  background-image: linear-gradient(rgba(255,255,255,0.36), rgba(255,255,255,0.36)), url('../images/Mainpage Occean Background.jpg');
   background-size: cover;
   background-position: center;
   padding:4rem 0;
